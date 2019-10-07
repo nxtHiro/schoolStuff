@@ -1,0 +1,101 @@
+Script started on 2019-02-21 05:13:34-06:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="105" LINES="54"]
+]777;notify;Command completed;clear]0;hiro@essenti:~]7;file://essenti/home/hiro[38;5;081mhiro[38;5;245m@[38;5;206messenti [38;5;245m~ [38;5;081m$ [0m./techshell
+$ cd Desktop
+$ w pwd
+/home/hiro/Desktop
+$ cd ..
+$ pwd
+/home/hiro
+$ ls -lh techshell.c
+-rwxrwxrwx 1 hiro hiro 3.9K Feb 21 04:56 techshell.c
+$ cd   hmpd  od 400 techshell.c
+$ ls -ls h techshell.c
+-r-------- 1 hiro hiro 3.9K Feb 21 04:56 techshell.c
+$ ls /root
+$ horseface
+Error 2 (No such file or directory) 
+$ cd . /root
+$ pwd
+/root
+$ cd /home/hiro
+$ ps
+  PID TTY          TIME CMD
+12959 pts/1    00:00:00 bash
+12987 pts/1    00:00:00 techshell
+13103 pts/1    00:00:00 ps
+$ whereis ps
+ps: /bin/ps /usr/share/man/man1/ps.1
+$ /bu in/ps u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+hiro      1113  0.0  0.0 369424  5424 tty2     Ssl+ 03:53   0:00 /usr/lib64/gdm/gdm-x-session --run-scrip
+hiro      1121  0.0  0.1 616060 15292 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-session/gnome-session-b
+hiro      1184  2.9  3.8 3932344 308836 tty2   Sl+  03:53   2:24 /usr/bin/gnome-shell
+hiro      1220  0.0  0.0 517004  7964 tty2     Sl   03:53   0:00 ibus-daemon --xim --panel disable
+hiro      1228  0.0  0.0 442584  6068 tty2     Sl   03:53   0:00 /usr/lib64/ibus/ibus-dconf
+hiro      1230  0.0  0.3 475188 25636 tty2     Sl   03:53   0:04 /usr/lib64/ibus/ibus-x11 --kill-daemon
+hiro      1302  0.0  0.3 551688 26640 tty2     Sl+  03:53   0:04 /usr/lib64/gnome-settings-daemon/gsd-pow
+hiro      1304  0.0  0.1 453488  9784 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-pri
+hiro      1305  0.0  0.0 589044  5720 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-rfk
+hiro      1306  0.0  0.0 441436  4560 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-scr
+hiro      1307  0.0  0.1 596548 10332 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-sha
+hiro      1310  0.0  0.1 521360  8312 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-sma
+hiro      1315  0.0  0.1 448916  8484 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-sou
+hiro      1317  0.0  0.3 549636 26704 tty2     Sl+  03:53   0:04 /usr/lib64/gnome-settings-daemon/gsd-xse
+hiro      1334  0.0  0.3 549272 25512 tty2     Sl+  03:53   0:04 /usr/lib64/gnome-settings-daemon/gsd-wac
+hiro      1337  0.0  0.0 442380  6296 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-a11
+hiro      1338  0.0  0.3 474764 25076 tty2     Sl+  03:53   0:04 /usr/lib64/gnome-settings-daemon/gsd-cli
+hiro      1339  0.0  0.2 557472 24208 tty2     Sl+  03:53   0:04 /usr/lib64/gnome-settings-daemon/gsd-col
+hiro      1340  0.0  0.1 474824 14752 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-dat
+hiro      1343  0.0  0.0 519672  7312 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-hou
+hiro      1344  0.0  0.3 548544 25448 tty2     Sl+  03:53   0:04 /usr/lib64/gnome-settings-daemon/gsd-key
+hiro      1345  0.0  0.2 958112 23792 tty2     Sl+  03:53   0:04 /usr/lib64/gnome-settings-daemon/gsd-med
+hiro      1349  0.0  0.0 442392  6360 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-mou
+hiro      1362  0.0  0.1 547932 13548 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-settings-daemon/gsd-pri
+hiro      1394  0.1  0.7 518248 62380 tty2     Sl+  03:53   0:06 /usr/bin/python3 /usr/bin/guake
+hiro      1397  0.0  0.2 711276 22544 tty2     SNl+ 03:53   0:00 /usr/lib64/tracker-miners/tracker-miner-
+hiro      1400  0.0  0.3 470380 26300 tty2     Sl+  03:53   0:00 /usr/bin/python2.7 /usr/bin/solus-update
+hiro      1401  0.0  0.0 232648  5824 tty2     Sl+  03:53   0:00 /usr/lib64/gnome-disk-utility/gsd-disk-u
+hiro      1416  0.1  0.3 717228 25988 tty2     SNl+ 03:53   0:05 /usr/lib64/tracker-miners/tracker-miner-
+hiro      1454  0.0  0.0 368764  6128 tty2     Sl   03:53   0:00 /usr/lib64/ibus/ibus-engine-simple
+hiro      1536  0.0  0.0 219336  4712 pts/0    Ss+  03:54   0:00 /bin/bash
+hiro      2525  0.2  1.0 943340 85044 tty2     Sl+  03:55   0:11 evince /tmp/mozilla_hiro0/homwork4.pdf
+hiro      2564  0.0  0.0 219468  4956 pts/2    Ss   03:56   0:00 bash
+hiro     10627  0.0  0.0 215368  2296 pts/2    S+   04:57   0:00 script
+hiro     10628  0.0  0.0 219472  5044 pts/3    Ss   04:57   0:00 bash -i
+hiro     10823  0.0  0.0 215368  2460 pts/3    S+   04:59   0:00 script
+hiro     10824  0.0  0.0 219472  5004 pts/4    Ss   04:59   0:00 bash -i
+hiro     11005  0.0  0.0 215368  2296 pts/4    S+   05:00   0:00 script
+hiro     11006  0.0  0.0 219468  4984 pts/5    Ss   05:00   0:00 bash -i
+hiro     11239  0.0  0.0 215368  2464 pts/5    R+   05:02   0:00 script
+hiro     11240  0.0  0.0 219344  4920 pts/6    Ss   05:02   0:00 bash -i
+hiro     11399  0.0  0.0 215368  2464 pts/6    R+   05:03   0:00 script
+hiro     11400  0.0  0.0 219440  5080 pts/7    Ss   05:03   0:00 bash -i
+hiro     12958  0.0  0.0 215368  2296 pts/7    S+   05:13   0:00 script
+hiro     12959  0.0  0.0 219344  4984 pts/1    Ss   05:13   0:00 bash -i
+hiro     12987  0.0  0.0   2836  1592 pts/1    S+   05:13   0:00 ./techshell
+hiro     13140  0.0  0.0 216080  2356 pts/1    R+   05:15   0:00 /bin/ps u
+$ ls
+CSC220	CSC364	 Documents  Music     projects	techshell    Templates	 Videos
+CSC222	Desktop  Downloads  Pictures  Public	techshell.c  typescript
+$ ps u > ps.out
+$ wc -l < ps.ot ut
+48
+$ wc -l ps.out > wc.out
+$ cat e wc.out
+48 ps.out
+$ rm wc.out
+$ wc -l < ps.out > wc.out
+$ cat wc.out
+48
+$ ls
+CSC220	CSC364	 Documents  Music     projects	Public	   techshell.c	typescript  wc.out
+CSC222	Desktop  Downloads  Pictures  ps.out	techshell  Templates	Videos
+$ rm ps.out wc.out
+$ ls
+CSC220	CSC364	 Documents  Music     projects	techshell    Templates	 Videos
+CSC222	Desktop  Downloads  Pictures  Public	techshell.c  typescript
+$ exit
+]777;notify;Command completed;./techshell]0;hiro@essenti:~]7;file://essenti/home/hiro[38;5;081mhiro[38;5;245m@[38;5;206messenti [38;5;245m~ [38;5;081m$ [0mexit
+exit
+
+Script done on 2019-02-21 05:16:32-06:00 [COMMAND_EXIT_CODE="0"]

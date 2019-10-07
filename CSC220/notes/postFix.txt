@@ -1,0 +1,32 @@
+infixQ;
+postfixQ;
+opers;
+
+Operator | INRank | PostFixRank
+(        |   4    |      -
+^        |   3    |      2
+*        |   2    |      2
+/        |   2    |      2
++        |   1    |      1
+-        |   1    |      1
+default  |   0    |      0
+
+repeat
+     token <- infixQ.dequeue()
+     if token is operand
+          postfixQ.enqueue(token)
+     else if token == ')'
+          op <- opers.pop()
+          while op is not (
+               postfixQ.enqueue(op)
+               op <- opers.pop()
+     else
+          op <- opers.peek()
+          while PostFixRank(op) >= INRank(token)
+               op <- opers.pop()
+               postfixQ.enqueue(op)
+               op <- opers.peek()
+     until infixQ IsEmpty
+     while opers is not empty
+          op <- opers.pop()
+          postfixQ.enqueue(op)

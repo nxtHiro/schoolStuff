@@ -1,0 +1,16 @@
+Sound not working?  Here are some things to try:
+
+(1) Make sure that both the speaker's USB and audio cables are properly plugged in.
+
+(2) Make sure that you have properly downloaded the sound files, and that they are in the same folder as your .py source file.
+
+(3) Make sure that the sound files in your source code are spelled correctly (i.e., as they are named in the folder).  Remember that filenames are case sensitive!
+
+(4) Make sure that the audio configuration on the RPi is set to output to the analog 3.5mm (headphone) jack and not to HDMI.  To do this, right-click on the speaker icon at the upper right of the desktop and select Analog.
+
+(5) Make sure that the volume wheel on the back (at the bottom) of one of the speakers is turned to the left (not quite all the way) and that the volume on the RPi is close (but not all the way) to its maximum (click on the speaker icon to set the volume on the RPi).
+
+If you still have problems, open up a terminal (by clicking on the monitor icon at the upper left of the desktop) and type: amixer set PCM -- 100%
+
+If you can hear the notes but they seem broken (e.g., with pops and clicks), you may need to turn the volume down on the speakers.  Do this by sliding the volume wheel on the back (at the bottom) of one of the speakers to the right a little until the notes are clean.  Another option is to reduce the volume on the RPi by modifying the percentage value in the terminal command above.  For example: amixer set PCM -- 90%
+

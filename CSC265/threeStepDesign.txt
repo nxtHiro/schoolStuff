@@ -1,0 +1,4 @@
+inputs -> not gates
+	based on truth tables in
+and gates
+or gates
